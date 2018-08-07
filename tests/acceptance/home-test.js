@@ -8,6 +8,6 @@ module('Acceptance | home', function(hooks) {
   test('visiting /', async function(assert) {
     await visit('/');
 
-    assert.equal(find('#tomster-title').textContent, 'tomster');
+    assert.equal(find('#tomster-title').textContent, 'Tomster');
   });
 });

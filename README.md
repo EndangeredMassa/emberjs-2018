@@ -11,10 +11,8 @@ A short introduction of this app could easily go here.
 
 ## Features
 
-- handlebars formatting
 - unified module project structure
-  - option test location
-- hot module reloading: https://github.com/toranb/ember-cli-hot-loader
+  - optional test location
 - angle bracket components
   - @-args
   - id and class attrs
