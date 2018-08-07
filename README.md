@@ -1,7 +1,6 @@
 # emberjs-2018
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Source: https://blog.usejournal.com/emberjs2018-my-safari-into-the-future-e4f31a4902ea
 
 ## Running / Development
 
