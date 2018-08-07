@@ -12,7 +12,11 @@ module('Integration | Component | tomster-logo', function(hooks) {
       filetype: "png"
     }
 
-    await render(hbs`<TomsterLogo @filename={{model.filename}} @filetype={{model.filetype}} />`);
+    await render(hbs`
+      <TomsterLogo
+        @filename={{model.filename}}
+        @filetype={{model.filetype}} />
+    `);
 
     assert.equal(this.element.querySelector('img').alt, 'Tomster Logo');
   });
