@@ -23,7 +23,7 @@ A short introduction of this app could easily go here.
   - home-test
   - component-test
 - fetch in ember data: adapter.js
-
+- npm auto load: lowerCase in component.js
 
 optional features
 - "application-template-wrapper"
