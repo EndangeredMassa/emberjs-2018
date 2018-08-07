@@ -11,10 +11,10 @@
   },
   "repository": "",
   "scripts": {
-    "build": "ember build",
+    "build": "EMBER_CLI_MODULE_UNIFICATION=true ember build",
     "lint:js": "eslint .",
-    "start": "ember serve",
-    "test": "ember test"
+    "start": "EMBER_CLI_MODULE_UNIFICATION=true ember serve",
+    "test": "EMBER_CLI_MODULE_UNIFICATION=true ember test"
   },
   "devDependencies": {
     "@ember-decorators/babel-transforms": "^2.0.0",
